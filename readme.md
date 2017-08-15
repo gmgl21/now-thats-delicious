@@ -7,7 +7,7 @@ The user can search, geolocate(using Google Maps API), review, and find their to
 The application has 3 main models: Users, Stores, and Reviews. 
 
 ## Check out the application:
-[Now That's Delicious]:https://now-thatsdelicious.herokuapp.com
+https://now-thatsdelicious.herokuapp.com/
 
 ### Thank you @wesbos, learned a lot from your Learn Node course.
 

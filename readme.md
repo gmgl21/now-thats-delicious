@@ -1,27 +1,14 @@
-## What is this?
+## Now That's Delicious
 
-Just you wait folks!
+This full stack restaurant application is built using Node.js, Express, MongoDB(mlab & MongoDB Compass), Passport.js and some more npms. 
+It is designed with today's application essentials such as user authentication, database storage, Ajax REST API, file upload and image resizing.
+<br>
+The user can search, geolocate(using Google Maps API), review, and find their top favorite restaurants from around the world. 
+The application has 3 main models: Users, Stores, and Reviews. 
 
-## Sample Data
+## Check out the application:
+[Now That's Delicious]:(https://now-thatsdelicious.herokuapp.com/)
 
-To load sample data, run the following command in your terminal:
-
-```bash
-npm run sample
-```
-
-If you have previously loaded in this data, you can wipe your database 100% clean with:
-
-```bash
-npm run blowitallaway
-```
-
-That will populate 16 stores with 3 authors and 41 reviews. The logins for the authors are as follows:
-
-|Name|Email (login)|Password|
-|---|---|---|
-|Wes Bos|wes@example.com|wes|
-|Debbie Downer|debbie@example.com|debbie|
-|Beau|beau@example.com|beau|
+### Thank you @wesbos, learned a lot from your Learn Node course.
 
 

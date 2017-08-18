@@ -76,7 +76,7 @@ exports.getStores = async (req, res) => {
     return;
   }
   
-  res.render('stores', {title: 'Stores', stores, page, pages, count });
+  res.render('stores', {title: 'Eats', stores, page, pages, count });
 };
 
 const confirmOwner = (store, user) => {
@@ -148,13 +148,13 @@ exports.getHearts = async (req, res) => {
   const stores = await Store.find({
     _id: { $in: req.user.hearts }
   });
-  res.render('stores', { title: 'Favorite Stores', stores} );
+  res.render('stores', { title: 'Favorite Eats', stores} );
 }
 
 
 exports.getTopStores = async (req, res) => {
   const stores = await Store.getTopStores();
-  res.render('topStores', {stores, title: 'Top Stores'});
+  res.render('topStores', {stores, title: 'Top Eats'});
 }
 
 // API search stores
